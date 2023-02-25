@@ -33,10 +33,10 @@ Build-Depends:
  hwdata,
  hwdata-dev,
  libopenvr-dev,
- vkroots-dev,
+ vkroots-dev | vkroots,
  libxmuu-dev,
  libxmu-dev,
- libdisplay-info-dev,
+ libdisplay-info-dev | libdisplay-info,
  libjsoncpp-dev,
  xwayland,
 Standards-Version: 4.6.1
