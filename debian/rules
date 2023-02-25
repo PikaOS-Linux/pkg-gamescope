@@ -6,12 +6,15 @@ DEB_BUILD_OPTIONS=nocheck
 override_dh_install:
 	dh_install
 	# Remove submodule conflicting files
+	rm -rf debian/gamescope/usr/bin/di-edid-decode
 	rm -rf debian/gamescope/usr/include
 	rm -rf debian/gamescope/usr/lib/libopenvr_api.a
 	rm -rf debian/gamescope/usr/lib/x86_64-linux-gnu/libliftoff.a
 	rm -rf debian/gamescope/usr/lib/x86_64-linux-gnu/libwlroots.a
+	rm -rf debian/gamescope/usr/lib/x86_64-linux-gnu/libdisplay-info.a
 	rm -rf debian/gamescope/usr/lib/x86_64-linux-gnu/pkgconfig/libliftoff.pc
 	rm -rf debian/gamescope/usr/lib/x86_64-linux-gnu/pkgconfig/wlroots.pc
+	rm -rf debian/gamescope/usr/lib/x86_64-linux-gnu/pkgconfig/display-info.pc
 
 %:
 	dh $@
