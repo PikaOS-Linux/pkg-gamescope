@@ -12,7 +12,7 @@ cd ./gamescope
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p wlroots_3.11.52-beta2
+LOGNAME=root dh_make --createorig -y -l -p gamescope_3.11.52
 dpkg-buildpackage
 
 # Move the debs to output
