@@ -1,4 +1,4 @@
-gamescope (3.11.58.d6c1df4.openvr-99pika15) kinetic; urgency=medium
+gamescope (3.11.52-beta2~99pika20) kinetic; urgency=medium
 
   * Fix missing deps
 
