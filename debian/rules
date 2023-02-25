@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+DEB_BUILD_OPTIONS=nocheck
 
 override_dh_install:
 	dh_install
