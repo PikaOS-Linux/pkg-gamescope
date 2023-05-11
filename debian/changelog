@@ -1,3 +1,9 @@
+gamescope (3.12.0-beta3~99pika1.lunar) lunar; urgency=medium
+
+  * Fix File duplication
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 15 Oct 2022 18:58:00 +0300
+
 gamescope (3.11.52-beta2~99pika21) kinetic; urgency=medium
 
   * Fix File duplication

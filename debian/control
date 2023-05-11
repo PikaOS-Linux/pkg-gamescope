@@ -33,10 +33,10 @@ Build-Depends:
  hwdata,
  hwdata-dev,
  libopenvr-dev,
- vkroots-dev | vkroots,
+ vkroots-headers | vkroots-dev | vkroots,
  libxmuu-dev,
  libxmu-dev,
- libdisplay-info-dev | libdisplay-info,
+ libdisplay-info-dev,
  libjsoncpp-dev,
  xwayland,
 Standards-Version: 4.6.1
@@ -50,8 +50,8 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  xwayland,
- vkroots,
- libdisplay-info,
+ vkroots-headers,
+ libdisplay-info0,
  hwdata,
 Suggests:
  libcap2-bin,

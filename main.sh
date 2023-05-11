@@ -4,7 +4,7 @@ add-apt-repository https://ppa.pika-os.com
 add-apt-repository ppa:pikaos/pika
 add-apt-repository ppa:kubuntu-ppa/backports
 # Clone Upstream
-git clone https://github.com/Plagman/gamescope -b 3.11.52-beta2
+git clone https://github.com/Plagman/gamescope -b 3.12.0-beta3
 cp -rvf ./debian ./gamescope
 cd ./gamescope
 
