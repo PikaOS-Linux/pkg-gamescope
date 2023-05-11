@@ -9,12 +9,12 @@ override_dh_install:
 	rm -rf debian/gamescope/usr/bin/di-edid-decode
 	rm -rf debian/gamescope/usr/include
 	rm -rf debian/gamescope/usr/lib/libopenvr_api.a
-	rm -rf debian/gamescope/usr/lib/x86_64-linux-gnu/libliftoff.a
-	rm -rf debian/gamescope/usr/lib/x86_64-linux-gnu/libwlroots.a
-	rm -rf debian/gamescope/usr/lib/x86_64-linux-gnu/libdisplay-info.a
-	rm -rf debian/gamescope/usr/lib/x86_64-linux-gnu/pkgconfig/libliftoff.pc
-	rm -rf debian/gamescope/usr/lib/x86_64-linux-gnu/pkgconfig/wlroots.pc
-	rm -rf debian/gamescope/usr/lib/x86_64-linux-gnu/pkgconfig/display-info.pc
+	rm -rf debian/gamescope/usr/lib/$(DEB_HOST_MULTIARCH)/libliftoff.a
+	rm -rf debian/gamescope/usr/lib/$(DEB_HOST_MULTIARCH)/libwlroots.a
+	rm -rf debian/gamescope/usr/lib/$(DEB_HOST_MULTIARCH)/libdisplay-info.a
+	rm -rf debian/gamescope/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig/libliftoff.pc
+	rm -rf debian/gamescope/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig/wlroots.pc
+	rm -rf debian/gamescope/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig/display-info.pc
 
 %:
 	dh $@
