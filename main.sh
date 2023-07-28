@@ -7,7 +7,7 @@ cd ./gamescope
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p gamescope_3.12.0
+LOGNAME=root dh_make --createorig -y -l -p gamescope_3.12.0-release
 dpkg-buildpackage --no-sign
 
 # Move the debs to output
