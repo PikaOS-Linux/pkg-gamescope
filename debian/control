@@ -40,6 +40,7 @@ Build-Depends:
  libjsoncpp-dev,
  xwayland,
  libglm-dev,
+ libbenchmark-dev,
 Standards-Version: 4.6.1
 Homepage: https://github.com/Plagman/gamescope
 Vcs-Browser: https://salsa.debian.org/games-team/gamescope
