@@ -1,5 +1,5 @@
 # Clone Upstream
-git clone https://github.com/Plagman/gamescope -b 3.12.0-beta10
+git clone https://github.com/Plagman/gamescope -b 3.12.0
 cp -rvf ./debian ./gamescope
 cd ./gamescope
 
@@ -7,7 +7,7 @@ cd ./gamescope
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p gamescope_3.12.0-beta10
+LOGNAME=root dh_make --createorig -y -l -p gamescope_3.12.0
 dpkg-buildpackage --no-sign
 
 # Move the debs to output
