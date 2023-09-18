@@ -4,6 +4,7 @@ cp -rvf ./debian ./gamescope
 cd ./gamescope
 git submodule update --init
 # Get build deps
+apt-get update -y
 apt-get build-dep ./ -y
 
 # Build package
