@@ -2,7 +2,7 @@
 git clone https://github.com/Plagman/gamescope
 cp -rvf ./debian ./gamescope
 cd ./gamescope
-
+git submodule update --init
 # Get build deps
 apt-get build-dep ./ -y
 
