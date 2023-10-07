@@ -19,6 +19,7 @@ Build-Depends:
  libxres-dev,
  libdrm-dev,
  libvulkan-dev,
+ vulkan-headers,
  libwayland-dev,
  wayland-protocols,
  libxkbcommon-dev,
